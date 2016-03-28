@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Will\Desktop\LIN-Controller1.1.sch</source>
+    <date>2016-03-28 6:41:48 PM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>25 mar 2016</date>
+        <source>LIN-Controller1.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CON1">
+      <value>BARREL_JACK</value>
+      <fields>
+        <field name="MFG P/N">PJ-002A </field>
+      </fields>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC9A09</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ATA663211</value>
+      <fields>
+        <field name="MFG P/N">ATA663211-GAQW</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="ATA663211"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EDEFB4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <fields>
+        <field name="MFG P/N">CRCW120610K0FKEA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EDF0F6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2.7K</value>
+      <fields>
+        <field name="MFG P/N">ERA-3ARB272V</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EDF51A</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4K7</value>
+      <fields>
+        <field name="MFG P/N">ERA-3APB472V</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EDFF56</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <fields>
+        <field name="MFG P/N">LLL185R71A104MA01L </field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE03EE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <fields>
+        <field name="MFG P/N">T58MM106M6R3C0300</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE03FB</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <fields>
+        <field name="MFG P/N">667-ERJ-PA2F1003X</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE0AFB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>220p</value>
+      <fields>
+        <field name="MFG P/N">CGA3E3C0G2E221J080AA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE0E9D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>1881451_LIN</value>
+      <fields>
+        <field name="MFG P/N">1881451</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="1881451_LIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE16F7</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAV99</value>
+      <fields>
+        <field name="MFG P/N">BAV99</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="BAV99"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE1B4D</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <fields>
+        <field name="MFG P/N">RK73H2BTTD1001F</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EE1DD4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SAMC21E-A</value>
+      <footprint>TQFP32</footprint>
+      <libsource lib="LIN-Controller1.1-cache" part="SAMC21E-A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F52129</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TL9210</value>
+      <fields>
+        <field name="MFG P/N">TL9210AF260Q</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="TL9210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F52137</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>TL9210</value>
+      <fields>
+        <field name="MFG P/N">TL9210AF260Q</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="TL9210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5213E</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TL9210</value>
+      <fields>
+        <field name="MFG P/N">TL9210AF260Q</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="TL9210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F52145</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>TL9210</value>
+      <fields>
+        <field name="MFG P/N">TL9210AF260Q</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="TL9210"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5214C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>TSWA3NCD23LFS_</value>
+      <fields>
+        <field name="MFG P/N">TSWA3NCD23LFS</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="TSWA3NCD23LFS_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F529C3</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>HDSM-283L</value>
+      <fields>
+        <field name="MFG P/N">HDSM-283L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="HDSM-283L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55B84</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>HDSM-283L</value>
+      <fields>
+        <field name="MFG P/N">HDSM-283L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="HDSM-283L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55B91</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>HDSM-283L</value>
+      <fields>
+        <field name="MFG P/N">HDSM-283L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="HDSM-283L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55B97</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>HDSM-283L</value>
+      <fields>
+        <field name="MFG P/N">HDSM-283L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="HDSM-283L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55B9D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>2SC5662</value>
+      <fields>
+        <field name="MFG P/N">2SC5662T2LP</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="2SC5662"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F539B9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>2SC5662</value>
+      <fields>
+        <field name="MFG P/N">2SC5662T2LP</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="2SC5662"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F539FC</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>2SC5662</value>
+      <fields>
+        <field name="MFG P/N">2SC5662T2LP</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="2SC5662"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F53A02</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>2SC5662</value>
+      <fields>
+        <field name="MFG P/N">2SC5662T2LP</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="2SC5662"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F53A08</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <fields>
+        <field name="MFG P/N">ERJ-1GEJ331C</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F54438</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <fields>
+        <field name="MFG P/N">ERJ-1GEJ331C</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F54445</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>330R</value>
+      <fields>
+        <field name="MFG P/N">ERJ-1GEJ331C</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5444B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330R</value>
+      <fields>
+        <field name="MFG P/N">ERJ-1GEJ331C</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F54451</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47u</value>
+      <fields>
+        <field name="MFG P/N">F380J476MMAAXEH3</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F559C9</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>33u</value>
+      <fields>
+        <field name="MFG P/N">SRR0805-330Y</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55C34</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <fields>
+        <field name="MFG P/N">LLL185R71A104MA01L </field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F55EA4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100u</value>
+      <fields>
+        <field name="MFG P/N">6TPH100MAEA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F56378</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <fields>
+        <field name="MFG P/N">1N5819HW-7-F</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="1N5819"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F564B8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <fields>
+        <field name="MFG P/N">LLL185R71A104MA01L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5748D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <fields>
+        <field name="MFG P/N">LLL185R71A104MA01L</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5749A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM2675</value>
+      <fields>
+        <field name="MFG P/N">LM2675MX-ADJ/NOPB</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="LM2675"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5549F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SWD_HEADER</value>
+      <fields>
+        <field name="MFG P/N">M50-3500542</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-cache" part="SWD_HEADER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F56359</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22R</value>
+      <fields>
+        <field name="MFG P/N">CRCW120610K0FKEA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5653C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <fields>
+        <field name="MFG P/N">CRCW120610K0FKEA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5654B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <fields>
+        <field name="MFG P/N">CRCW120610K0FKEA</field>
+      </fields>
+      <libsource lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F5655A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LIN-Controller1.1-cache" part="1881451_LIN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1881451_LIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="1N5819">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="2SC5662">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2SC5662</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="power_in"/>
+        <pin num="2" name="E" type="power_in"/>
+        <pin num="3" name="C" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="ATA663211">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATA663211</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RXD" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="WKin" type="input"/>
+        <pin num="4" name="TXD" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="WKin" type="input"/>
+        <pin num="7" name="Vcc" type="input"/>
+        <pin num="8" name="INH" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="BAV99">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-rescue" part="C-RESCUE-LIN-Controller1.1">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-LIN-Controller1.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="HDSM-283L">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">HDSM-283L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="'g'" type="input"/>
+        <pin num="2" name="D1" type="input"/>
+        <pin num="3" name="'f'" type="input"/>
+        <pin num="5" name="'a'" type="input"/>
+        <pin num="6" name="'b'" type="input"/>
+        <pin num="7" name="D2" type="input"/>
+        <pin num="8" name="'c'" type="input"/>
+        <pin num="9" name="CC" type="input"/>
+        <pin num="10" name="'d'" type="input"/>
+        <pin num="11" name="'e'" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="LM2675">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2675</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="FS" type="input"/>
+        <pin num="5" name="ON/OFF" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="Vin" type="input"/>
+        <pin num="8" name="VSW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-rescue" part="R-RESCUE-LIN-Controller1.1">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-LIN-Controller1.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="SAMC21E-A">
+      <aliases>
+        <alias>SAMD20E15A-A</alias>
+        <alias>SAMD20E16A-A</alias>
+        <alias>SAMD20E17A-A</alias>
+      </aliases>
+      <footprints>
+        <fp>TQFP32</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SAMC21E-A</field>
+        <field name="Footprint">TQFP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XIN32/TC2WO0/SERCOM1P0/PA00" type="BiDi"/>
+        <pin num="2" name="XOUT32/TC2WO1/SERCOM1P1/PA01" type="BiDi"/>
+        <pin num="3" name="VOUT/Y0/AIN0/PA02" type="BiDi"/>
+        <pin num="4" name="Y1/AIN1/VREFA/VREFP/PA03" type="BiDi"/>
+        <pin num="5" name="TC0WO0/SERCOM0P0/Y2/AIN0/AIN4/VREFB/PA04" type="BiDi"/>
+        <pin num="6" name="TC0W01/SERCOM0P1/Y3/AIN1/AIN5/PA05" type="BiDi"/>
+        <pin num="7" name="TC1WO0/SERCOM0P2/Y4/AIN2/AIN6/PA06" type="BiDi"/>
+        <pin num="8" name="TC1WO1/SERCOM0P3/Y5/AIN3/AIN7/PA07" type="BiDi"/>
+        <pin num="9" name="VDDANA" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="TC0WO0/SERCOM2P0/SERCOM0P0/X0/AIN16/NMI/PA08" type="BiDi"/>
+        <pin num="12" name="TC0WO1/SERCOM2P1/SERCOM0P1/X1/AIN17/PA09" type="BiDi"/>
+        <pin num="13" name="GCLKIO4/TC1WO0/SERCOM2P2/SERCOM0P2/X2/AIN18/PA10" type="BiDi"/>
+        <pin num="14" name="GCLKIO5/TC1WO1/SERCOM2P3/SERCOM0P3/X3/AIN19/PA11" type="BiDi"/>
+        <pin num="15" name="XIN/GCLKIO0/TC3WO0/SERCOM4P2/SERCOM2P2/PA14" type="BiDi"/>
+        <pin num="16" name="XOUT/GCLKIO1/TC3WO1/SERCOM4P3/SERCOM2P3/PA15" type="BiDi"/>
+        <pin num="17" name="GCLKIO2/TC2WO0/SERCOM3P0/SERCOM1P0/X4/PA16" type="BiDi"/>
+        <pin num="18" name="GCLKIO3/TC2WO1/SERCOM3P1/SERCOM1P1/X5/PA17" type="BiDi"/>
+        <pin num="19" name="ACCMP0/TC3WO0/SERCOM3P2/SERCOM1P2/X6/PA18" type="BiDi"/>
+        <pin num="20" name="ACCMP1/TC3WO1/SERCOM3P3/SERCOM1P3/X7/PA19" type="BiDi"/>
+        <pin num="21" name="GCLKIO6/TC4WO0/SERCOM5P0/SERCOM3P0/X10/PA22" type="BiDi"/>
+        <pin num="22" name="GCLKIO7/TC4WO1/SERCOM5P1/SERCOM3P1/X11/PA23" type="BiDi"/>
+        <pin num="23" name="TC5WO0/SERCOM5P2/SERCOM3P2/PA24" type="BiDi"/>
+        <pin num="24" name="TC5WO1/SERCOM5P3/SERCOM3P3/PA25" type="BiDi"/>
+        <pin num="25" name="GCLKIO0/PA27" type="BiDi"/>
+        <pin num="26" name="~RESET~" type="input"/>
+        <pin num="27" name="GCLKIO0/PA28" type="BiDi"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="VDDCORE" type="passive"/>
+        <pin num="30" name="VDDIN" type="power_in"/>
+        <pin num="31" name="GCLKIO0/SWCLK/TC1WO0/SERCOM1P2/PA30" type="BiDi"/>
+        <pin num="32" name="SWDIO/TC1WO1/SERCOM1P3/PA31" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="SWD_HEADER">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SWD_HEADER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="input"/>
+        <pin num="2" name="SWDIO" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="SWDCLK" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SWO" type="input"/>
+        <pin num="8" name="NC" type="input"/>
+        <pin num="9" name="GNDDetect" type="input"/>
+        <pin num="10" name="nRESET" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="TL9210">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL9210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LIN-Controller1.1-cache" part="TSWA3NCD23LFS_">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TSWA3NCD23LFS_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="power_in"/>
+        <pin num="2" name="B" type="power_in"/>
+        <pin num="3" name="NO" type="power_in"/>
+        <pin num="4" name="COM" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LIN-Controller1.1-rescue">
+      <uri>C:\Users\Will\Desktop\LIN-Controller1.1-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="LIN-Controller1.1-cache">
+      <uri>C:\Users\Will\Desktop\LIN-Controller1.1-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R5-Pad2)">
+      <node ref="U6" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U1" pin="28"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="SW5" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="10" name="/DIS'f'">
+      <node ref="U1" pin="18"/>
+      <node ref="D3" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="11" name="/DIS'a'">
+      <node ref="D1" pin="6"/>
+      <node ref="D5" pin="6"/>
+      <node ref="U1" pin="23"/>
+      <node ref="D4" pin="6"/>
+      <node ref="D3" pin="6"/>
+    </net>
+    <net code="12" name="/DIS'd'">
+      <node ref="D5" pin="10"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D4" pin="10"/>
+      <node ref="D1" pin="10"/>
+      <node ref="D3" pin="10"/>
+    </net>
+    <net code="13" name="/DS0">
+      <node ref="U1" pin="27"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="14" name="/DS1">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="15" name="/DS2">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="16" name="/DS3">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="17" name="/DIS'g'">
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="18" name="/DIS'b'">
+      <node ref="U1" pin="22"/>
+      <node ref="D5" pin="5"/>
+      <node ref="D3" pin="5"/>
+      <node ref="D4" pin="5"/>
+      <node ref="D1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="22" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="24" name="Net-(R7-Pad1)">
+      <node ref="U1" pin="32"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="27" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="30" name="3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="31" name="/DIS'.'">
+      <node ref="D5" pin="7"/>
+      <node ref="U1" pin="24"/>
+      <node ref="D3" pin="7"/>
+      <node ref="D4" pin="7"/>
+      <node ref="D1" pin="7"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="33" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="34" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="30"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="36" name="Net-(C2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="37" name="Net-(D6-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="38" name="/PB0">
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="39" name="/PB1">
+      <node ref="SW2" pin="2"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="40" name="/PB2">
+      <node ref="U1" pin="12"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="41" name="/PB3">
+      <node ref="SW4" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="42" name="/TWA">
+      <node ref="SW5" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="43" name="/TWB">
+      <node ref="SW5" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="44" name="/TWC">
+      <node ref="SW5" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="47" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="50" name="Net-(D5-Pad9)">
+      <node ref="D5" pin="9"/>
+    </net>
+    <net code="51" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="53" name="/TXD">
+      <node ref="U7" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="54" name="/EN">
+      <node ref="U7" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="56" name="/RXD">
+      <node ref="U7" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="57" name="/DIS'e'">
+      <node ref="D5" pin="11"/>
+      <node ref="D1" pin="11"/>
+      <node ref="D4" pin="11"/>
+      <node ref="U1" pin="19"/>
+      <node ref="D3" pin="11"/>
+    </net>
+    <net code="58" name="/DIS'c'">
+      <node ref="D4" pin="8"/>
+      <node ref="D1" pin="8"/>
+      <node ref="D3" pin="8"/>
+      <node ref="U1" pin="21"/>
+      <node ref="D5" pin="8"/>
+    </net>
+    <net code="59" name="Net-(D1-Pad9)">
+      <node ref="D1" pin="9"/>
+    </net>
+    <net code="60" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D3-Pad9)">
+      <node ref="D3" pin="9"/>
+    </net>
+    <net code="62" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D4-Pad9)">
+      <node ref="D4" pin="9"/>
+    </net>
+    <net code="64" name="Net-(C7-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="6"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="65" name="VsLIN">
+      <node ref="CON1" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D6" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+  </nets>
+</export>
